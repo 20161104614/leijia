@@ -7,6 +7,9 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+var sum = 0
+for index in 1...100{
+    sum = sum + index
+}
+print(sum)
 
